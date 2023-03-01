@@ -1,7 +1,5 @@
 
-header a{
-    text-decoration: none;
-}
+
 #hero{
     height: 800px;
     background-image: url(/images/places/background.jpg);
@@ -29,7 +27,7 @@ header a{
 #hero-content p{
     font-size: 24px;
     font-weight: 300;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 #hero-content a{
     text-transform: none;
@@ -46,7 +44,7 @@ header a{
     background-color: rgb(225, 230, 0);
 }
 #highlights{
-    background-color: rgb(229, 237, 255);
+    background: linear-gradient(45deg, rgb(227,255,253),rgb(202,243,240));
     padding: 10px 50px 50px 50px;
 }
 #highlights h2{
@@ -70,7 +68,7 @@ header a{
     color: rgb(124, 123, 123);
     font-size: 20px;
 }
-img{
+#highlights img{
     width: 80%;
     height: 60%;
     border-radius: 8px;

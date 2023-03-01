@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(30deg,rgb(77,77,77), rgb(58,58,58));
+}
+#space{
+    height: 100px;
+}
+main ul{
+    width: 1200px;
+    margin: 0 auto;
+    color: rgb(68,68,68);
+}
+main ul li{
+    display: flex;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden; /*גורם לאלמנטים שבתוכו לא לחרוג ממנו. לכן הזוויות יהיו עגולות*/
+}
+.flex-elements{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.flex-elements li{
+    width: 590px;
+}
+.item-content{
+    padding:  0 12px 12px 12px;
+    background-color: rgb(238, 237, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.action{
+    text-align: right;
+}
+.action a{
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 8px;
+    color: rgb(3, 164, 212);
+    text-shadow:  1px 1px 5px rgb(3, 164, 212);
+}
+.action a:hover{
+    background-color:rgba(3, 164, 212,0.1) ;
+}
+main li img{
+    object-fit: cover;
+}
+
